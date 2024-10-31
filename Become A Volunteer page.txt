@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Become A Volunteer - LVBPT</title>
+    <meta charset="utf-8">
+    <link href="lvbpt.css" rel="stylesheet">
 
+    <!-- Google Translate start -->
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Google Translate end-->
+
+    <!-- Style changes start -->
+    <style>
+        /* Section code, creates gray line below text */
+            section {height: 33%;
+            padding-bottom: 2em;
+            border-bottom: 1px solid #808080;
+            padding-left: 0;
+            padding-right: 0;}
+        
+        /* Text edits */
+            h3 {margin-left: 2em;
+            margin-right: 2em;}
+
+        /* Photo edits */
+            .photo {text-align: center;
+            margin: 0;}
+
+        /* Paragraph edits */
+            p {color: #239273;
+            font-size: x-large; 
+            text-align: center;}
+
+        /* Paragraph link edits */
+            p a:link {color: #239273;
+            font-weight: bold;
+            font-size: 1.2em;}
+            p a:hover {color: #239273;}
+            p a:visited {color: #239273;}
+
+    </style>
+    <!-- Style changes end -->
+</head>
+
+<body>
+<div id="myGradient">
+<div id="wrapper">
+    <!-- Google Translation start -->
+    <div id="google_translate_element"></div>
+    <!-- Google Translation end -->
+    <header>
+        <a href="index.html"><img src="Logo.png" alt="LVBPT Logo"></a>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> &nbsp; &nbsp;
+        <a href="about-us.html">About Us</a> &nbsp; &nbsp;
+        <a href="programs.html">Programs</a> &nbsp; &nbsp;
+        <a href="student-registration.html">Student Registration</a> &nbsp; &nbsp;
+        <a href="become-volunteer.html">Become a Volunteer</a> &nbsp; &nbsp;
+        <a href="tutor-resources.html">Tutor Resources</a>
+    </nav>
+    <main>
+        <section>
+            <h1>Become A Volunteer</h1>
+            <h3>Depending on your schedule and interests, you can volunteer as a weekly tutor in either our Basic Literacy or ESOL programs. If you prefer a short-term project, we can put you to work as a mentor or office assistant. Here is the application for volunteers:</h3><br>
+            <div class="photo">
+                <!-- Change the image source to change the picture -->
+                <img src="./become-volunteer/NewTutors.jpg" alt="New Tutors" width="480" height="360">
+                <img src="./become-volunteer/Tutors.jpg" alt="Tutors" width="480" height="360">
+            </div>
+            <!-- Volunteer application form link -->
+            <p><a href="https://forms.gle/mBeQh2jPpriuTyNc6" target=”_blank”>Volunteer Application</a></p>
+        </section>
+        <h2 style="padding-top:2em">Tutor</h2>
+        <h3>Assist adult learners to improve their reading, writing and/or English speaking skills. You will be assigned a small group of students and will be provided background information on them, as well as appropriate primary learning materials at your students' levels. The Literacy Coordinator will facilitate your first meeting and provide ongoing support as needed.</h3>
+        
+        <h2>Mentor</h2>
+        <h3>Assignments vary from assisting in established groups to working with an adult learner on a specific goal, such as studying for citizenship, TOEFL, driver's license or GED exam, resume writing, computer basics, etc. The Literacy Coordinator will provide ongoing support.</h3>
+        
+        <h2>Office Support/Publicity/Fundraising</h2>
+        <h3>Make copies; prepare training materials; design flyers for upcoming events; create quarterly newsletter; post to social media; or assist with fundraising events.
+        </h3>
+
+        <h2>Requirements</h2>
+        <h3>All volunteers must complete the volunteer application form and provide at least two references. Tutors and mentors are required to be at least 18 years of age, have a high school diploma (or equivalent) and read, write and speak English fluently. As a tutor or mentor you are required to volunteer at least two hours per week with your students.</h3>
+ 
+        </section>
+    </main>
+    <footer>
+        <img src="BridgeportLibraryLogo.jpg" alt="Bridgeport Library Logo">
+        <img src="ProLiteracyLogo.jpg" alt="ProLiteracy Logo" width="150" height="55">
+        <a href="https://www.facebook.com/LVBPT" target="_blank"><img src="FacebookLogo.png" alt="Facebook" width="45"></a>
+        <footer style="margin-top: 0.25em">Copyright &copy; 2023 Literacy Volunteers of Greater Bridgeport<br></footer>
+        Located at the Bridgeport Public Library, call us at (203) 576-7012<br>
+    </footer>
+</div>
+</body>
+</html>
