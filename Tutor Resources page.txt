@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Tutor Resources - LVBPT</title>
+    <meta charset="utf-8">
+    <link href="lvbpt.css" rel="stylesheet">
+
+    <!-- Google Translate start -->
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Google Translate end-->
+
+    <!-- Style changes start -->
+    <style>
+        /* Paragraph edits */
+            p {color: #1f4374;
+            font-size: large; }
+
+        /* Icon code start */
+            /* Button color, text color, size */
+            .btn {background-color: #49b999;
+            color: #1f4374;
+            width: 250px;
+            height: 75px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 2em;
+            text-align: center;}
+
+            .center .btn:last-child {margin-right: 0;}
+
+            /* Button color when hovered on */
+            .btn:hover {background-color: #eaeaea;}
+
+            /* Makes button center of screen */
+            .center {display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2em;
+            margin-bottom: 2em;}
+
+            .center a {margin: 0 5px;}
+        /* Icon code end */
+
+        /* TutorWorkshop.jpg edits */
+            #TutorWorkshop { height: 300px;
+            background-image: url(./tutor-resources/TutorWorkshop.jpg);
+            background-repeat: no-repeat;
+            margin: auto;
+            width: 80%;
+            background-size: cover;
+            background-position: center; }
+
+        /* Tutor Resources edits */
+            h3 {margin-left: 2em;
+            margin-right: 2em;}
+
+        /* Link edits for tutor resources */
+            h3 a{font-weight: bold;}
+            h3 a:link {color: #239273;}
+            h3 a:visited {color: #239273;}
+
+    </style>
+    <!-- Style changes end -->
+
+</head>
+<body>
+<div id="myGradient">
+<div id="wrapper">
+    <!-- Google Translation start -->
+    <div id="google_translate_element"></div>
+    <!-- Google Translation end -->
+    <header>
+        <a href="index.html"><img src="Logo.png" alt="LVBPT Logo"></a>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> &nbsp; &nbsp;
+        <a href="about-us.html">About Us</a> &nbsp; &nbsp;
+        <a href="programs.html">Programs</a> &nbsp; &nbsp;
+        <a href="student-registration.html">Student Registration</a> &nbsp; &nbsp;
+        <a href="become-volunteer.html">Become a Volunteer</a> &nbsp; &nbsp;
+        <a href="tutor-resources.html">Tutor Resources</a>
+    </nav>
+    <main>
+        <h1>Literacy Volunteers Lending Library</h1>
+        <p>Our office, located on the third floor of the Bridgeport Library, offers a wide selection of teaching materials for you to sign out and use with your students. Please email Lisa or Suzanne to let them know when you'd like to come in and check out our tutor resource materials. They will be happy to help you select the most appropriate materials for your students.</p>
+        
+        <!-- Icon start -->
+        <div class="center">
+            <a href="./tutor-resources/TutorHoursReport.pdf" target="_blank"><button class="btn"><i class="fa fa-report"></i> Tutor Hours Report</button></a>
+            <a href="./tutor-resources/LessonPlanTemp.doc" target="_blank"><button class="btn"><i class="fa fa-plan"></i> Lesson Plan Template</button></a>
+            <a href="online-resources.html"><button class="btn"><i class="fa fa-resource"></i> Online Resources</button></a>
+        </div>
+        <!-- Icon end -->
+
+        <!-- Tutor workshop picture -->
+        <div id="TutorWorkshop"></div>
+        <h2>Tutor Training Modules</h2>
+        <h3>LVBPT tutors can take advantage of the free online tutor training modules on the ProLiteracy website. This is a great resource! Visit our <a href="https://proliteracyednet.org/lvbpt" target="_blank"> member portal</a> on the Pro Literacy website for more information.</h3>
+        <h3>At the bottom of the page, click on "create a tutor account." Then you can create a password and login. Go to the tutor/teacher section of the education network to see a list of the many courses they offer.</h3>
+        <h3>There are Basic Literacy and ESOL Tutor Training workshops as well as individual courses on teaching math, writing, vocabulary, phonics, reading comprehension, citizenship and many more topics!</h3>
+        <h2>News For You</h2>
+        <h3>We have both print and online subscriptions to News For You, which is a newspaper for advanced beginner/intermediate level readers. Weekly issues contain news articles, human interest stories, crossword puzzles, word searches, discussion questions, vocabulary lists, and a teacher's guide. Visit the <a href="https://www.newsforyouonline.com/" target="_blank"> News For You website</a> for more. </h3>
+        <h3>When prompted, enter the password: <b><u>63178C</u></b>. If you prefer the print version, you can pick them up at our office.</h3>
+        <h2>Pro Literacy</h2>
+        <h3>On the <a href="https://www.proliteracy.org" target="_blank">Pro Literacy website</a>, you'll find adult literacy statistics and news, as well as free online courses for adult educators.</h3>
+        <h2>New Readers Press</h2>
+        <h3>New Readers Press is the U.S. publishing division of ProLiteracy Worldwide and the source of many of our adult literacy titles, such as TUTOR and I Speak English. An appropriate adult-level dictionary can also be ordered here. For more information, visit the <a href="https://www.newreaderspress.com" target="_blank"> New Readers Press website</a>, or you may also reach them at 1-800-448-8878.</h3>
+        <h2>Wilson Language</h2>
+        <h3>All Wilson Reading Systems materials, such as the WRS Sound Cards, Rules Notebook & Dictation Book can be ordered from the <a href="https://www.wilsonlanguage.com/" target="_blank">Wilson Language website</a> or call 1-800-899-8454.</h3>
+    </main>
+    <footer>
+        <img src="BridgeportLibraryLogo.jpg" alt="Bridgeport Library Logo">
+        <img src="ProLiteracyLogo.jpg" alt="ProLiteracy Logo" width="150" height="55">
+        <a href="https://www.facebook.com/LVBPT" target="_blank"><img src="FacebookLogo.png" alt="Facebook" width="45"></a>
+        <footer style="margin-top: 0.25em">Copyright &copy; 2023 Literacy Volunteers of Greater Bridgeport<br></footer>
+        Located at the Bridgeport Public Library, call us at (203) 576-7012<br>
+    </footer>
+</div>
+</body>
+</html>
 
