@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Contact Us - LVBPT</title>
+    <meta charset="utf-8">
+    <link href="lvbpt.css" rel="stylesheet">
 
+    <!-- Google Translate start -->
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Google Translate end-->
+
+    <!-- Style changes start -->
+    <style>
+        /* Paragraph edits */
+            p {color: #1f4374;
+            font-size: x-large; 
+            text-align: center;}
+
+        /* Paragraph link edits */
+            p a:link {color: #1f4374;
+            font-weight: bold;}
+            p a:hover {color: #1f4374;}
+            p a:visited {color: #1f4374;}
+
+        /* Email link edits */
+            h3 a:link {color: #7597D1;}
+            h3 a:hover {color: #7597D1;}
+            h3 a:visited {color: #7597D1;}
+
+        /* Positioning of map */
+            /* .center {float: right;} */
+
+            @media (max-width: 1000px) {
+            .center {
+            text-align: center;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+            
+    </style>
+    <!-- Style changes end -->
+</head>
+
+<body>
+<div id="myGradient">
+<div id="wrapper">
+    <!-- Google Translation start -->
+    <div id="google_translate_element"></div>
+    <!-- Google Translation end -->
+    <header>
+        <a href="index.html"><img src="Logo.png" alt="LVBPT Logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="student-registration.html">Student Registration</a></li>
+            <li><a href="become-volunteer.html">Become a Volunteer</a></li>
+            <li><a href="tutor-resources.html">Tutor Resources</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contact Us</h1>
+        <!-- Contact form link -->
+        <p>Fill out <a href="https://forms.gle/tz5s1eqTiAQZkWnH8" target="_blank">this form</a> to get more information about a program, or to ask a question.</p>
+        <div id="flow">
+            <section>
+                <h2>Email:</h2>
+                <h3>Lisa Wolfeiler, Basic Literacy Coordinator: <a href="mailto:lwolfeiler@bridgeportpubliclibrary.org">lwolfeiler@bridgeportpubliclibrary.org</a></h3>
+                <h3>Suzanne Solensky, ESOL Coordinator:<br><a href="mailto:ssolensky@bridgeportpubliclibrary.org">ssolensky@bridgeportpubliclibrary.org</a></h3>
+                <br>
+                <h2>Our mailing address:</h2>
+                <h3>Bridgeport Public Library<br>925 Broad Street<br>Bridgeport, CT 06604<br></h3>
+                <br>
+                <h2>Phone:</h2>
+                <h3>
+                    Phone: (203) 576-7012 <br>
+                    Fax: (203) 576-7137
+                </h3>
+            </section>
+
+            <!-- Google Maps start -->
+            <div class="center">
+                <iframe src="https://mapsengine.google.com/map/embed?mid=zc2Bi3FPZoxw.ksTaVDrzu3l4" width="640" height="480"></iframe>
+            </div>
+            <!-- Google Maps end -->
+
+        </div>
+    </main>
+
+    <!-- Footer navigation start -->
+    <div class="footer-nav">
+        <section>
+            <ul>
+                <li>
+                    <a href="index.html"><h3>Home</h3></a>
+                    <ul>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="https://www.paypal.com/US/fundraiser/charity/2044462" target="_blank">Donate</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="programs.html"><h3>Programs</h3></a>
+                    <ul>
+                        <li><a href="./programs/NEDPpamplet.pdf" target="_blank">NEDP Information</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="student-registration.html"><h3>Student Registration</h3></a>
+              <ul>
+                <li><a href="https://forms.gle/3WUpYwBLKRU4kmyEA" target="_blank">Student Registration Form</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="become-volunteer.html">
+              <h3>Become a Volunteer</h3>
+            </a>
+              <ul>
+                <li><a href="https://forms.gle/mBeQh2jPpriuTyNc6" target="_blank">Become a Volunteer</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="tutor-resources.html">
+              <h3>Tutor Resources</h3>
+            </a>
+              <ul>
+                <li><a href="./tutor-resources/TutorHoursReport.pdf" target="_blank">Tutor Hours Report</a></li>
+                <li><a href="./tutor-resources/LessonPlanTemp.doc" target="_blank">Lesson Plan Template</a></li>
+                <li><a href="online-resources.html">Online Resources</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+    </div>
+    <!-- Footer navigation end -->
+
+    <footer>
+        <img src="BridgeportLibraryLogo.jpg" alt="Bridgeport Library Logo">
+        <img src="ProLiteracyLogo.jpg" alt="ProLiteracy Logo" width="150" height="55">
+        <a href="https://www.facebook.com/LVBPT" target="_blank"><img src="FacebookLogo.png" alt="Facebook" width="45"></a>
+        <footer style="margin-top: 0.25em">Copyright &copy; 2023 Literacy Volunteers of Greater Bridgeport<br></footer>
+        Located at the Bridgeport Public Library, call us at (203) 576-7012<br>
+    </footer>
+</div>
+</body>
+</html>
