@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Student Registration - LVBPT</title>
+    <meta charset="utf-8">
+    <link href="lvbpt.css" rel="stylesheet">
 
+    <!-- Google Translate start -->
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Google Translate end-->
+
+    <!-- Style changes start -->
+    <style>
+        /* Section code, creates gray line below text */
+            section {height: 33%;
+            padding-bottom: 2em;
+            border-bottom: 1px solid #808080;
+            padding-left: 0;
+            padding-right: 0;}
+
+        /* Text edits */
+            h3 {margin-left: 2em;
+            margin-right: 2em;}
+        
+        /* Photo adjustments */
+            .photo {text-align: center;
+            margin: 0;}
+
+        /* Paragraph edits (questions) */
+            p {color: #239273;
+            font-size: x-large; 
+            text-align: center;}
+
+        /* Paragraph link edits */
+            p a:link {color: #239273;
+            font-weight: bold;
+            font-size: 1.2em;}
+            p a:hover {color: #239273;}
+            p a:visited {color: #239273;}
+    </style>
+    <!-- Style changes end -->
+</head>
+
+<body>
+<div id="myGradient">
+<div id="wrapper">
+    <!-- Google Translation start -->
+    <div id="google_translate_element"></div>
+    <!-- Google Translation end -->
+    <header>
+        <a href="index.html"><img src="Logo.png" alt="LVBPT Logo"></a>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> &nbsp; &nbsp;
+        <a href="about-us.html">About Us</a> &nbsp; &nbsp;
+        <a href="programs.html">Programs</a> &nbsp; &nbsp;
+        <a href="student-registration.html">Student Registration</a> &nbsp; &nbsp;
+        <a href="become-volunteer.html">Become a Volunteer</a> &nbsp; &nbsp;
+        <a href="tutor-resources.html">Tutor Resources</a>
+    </nav>
+    <main>
+        <section>
+            <h1>
+                Student Registration
+            </h1>
+            <h3>Registering to become a student at Literacy Volunteers is very easy. Just email us or call our office at 203-576-7012 to make an appointment. You can also refer a potential student. When you come in to meet with one of us, we'll ask you for basic background information about yourself and your goals for the future. We'll assess your reading and writing skills and ask about your availability to determine which class would best meet your needs.</h3><br>
+            <div class="photo">
+                <!-- Change the image source to change the picture -->
+                <img src="./student-registration/Renee.jpg" alt="Renee Graduation" height="320" width="240">
+                <img src="./student-registration/Raquel.jpg" alt="Raquel Graduation" height="320" width="240">
+                <img src="./student-registration/ProudMoment.jpg" alt="Proud Moment" height="320" width="240">
+                <img src="./student-registration/CapAndGown.jpg" alt="Cap and Gown" height="320" width="240">
+            </div>
+            <!-- New student registration form link -->
+            <p><a href="https://forms.gle/3WUpYwBLKRU4kmyEA" target="_blank">New Students Register Here</a></p>
+        </section>
+        
+        <h1>Frequently Asked Questions</h1>
+        <h2>Where are classes held?</h2>
+        <h3>Classes are held at various libraries, churches and community centers in the Bridgeport area.</h3>
+        
+        <h2>When are classes held?</h2>
+        <h3>We have morning, afternoon, evvening and Saturday classes.</h3>
+        
+        <h2>How do I know which class will be right for me?</h2>
+        <h3>When you come in to register at Literacy Volunteers, we will assess your skills and ask about your availability. We'll assign you to a class that is suited to your skill level and your schedule.</h3>
+
+        <h2>How often do classes meet?</h2>
+        <h3>Most classes meet once or twice a week for 2 hours.</h3>
+        
+        <h2>How many students are in a class?</h2>
+        <h3>Class sizes generally range from 1 to 8 students. Larger classes may have 2 tutors.</h3>
+
+        <h2>Is there a cost for the classes?</h2>
+        <h3>No.</h3>
+
+        <h2>When do classes start and end?</h2>
+        <h3>You can register at any time of year to start class. If there is a class that meets your needs, you will join that class. If not, you will be placed on a waiting list and we will contact you as soon as we have a tutor who can work with you.</h3>
+
+        <h2>How long will I be attending class?</h2>
+        <h3>We ask that you commit to attending class for at least a year or until you reach your goal (such as passing the GED) but many students decide to continue for several years.</h3>
+    </main>
+    <footer>
+        <img src="BridgeportLibraryLogo.jpg" alt="Bridgeport Library Logo">
+        <img src="ProLiteracyLogo.jpg" alt="ProLiteracy Logo" width="150" height="55">
+        <a href="https://www.facebook.com/LVBPT" target="_blank"><img src="FacebookLogo.png" alt="Facebook" width="45"></a>
+        <footer style="margin-top: 0.25em">Copyright &copy; 2023 Literacy Volunteers of Greater Bridgeport<br></footer>
+        Located at the Bridgeport Public Library, call us at (203) 576-7012<br>
+    </footer>
+</div>
+</body>
+</html>
