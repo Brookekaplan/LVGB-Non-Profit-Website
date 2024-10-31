@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Programs - LVBPT</title>
+    <meta charset="utf-8">
+    <link href="lvbpt.css" rel="stylesheet">
+    <style>
+
+        p {color: #1f4374;
+        font-size: large; }
+
+        ul {color: #1f4374;
+        font-size: large;}
+
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <a href="home.html"><img src="Logo.png" alt="LVBPT Logo"></a>
+    </header>
+    <nav>
+        <a href="home.html">Home</a> &nbsp; &nbsp;
+        <a href="about-us.html">About Us</a> &nbsp; &nbsp;
+        <a href="programs.html">Programs</a> &nbsp; &nbsp;
+        <a href="student-registration.html">Student Registration</a> &nbsp; &nbsp;
+        <a href="become-volunteer.html">Become a Volunteer</a> &nbsp; &nbsp;
+        <a href="events.html">Events</a> &nbsp; &nbsp;
+        <a href="tutor-resources.html">Tutor Resources</a> &nbsp; &nbsp;
+        <a href="donate.html">Donate</a> &nbsp; &nbsp;
+        <a href="contact-us.html">Contact Us</a>
+    </nav>
+    <main>
+        <h1>
+            Programs
+        </h1>
+        <p>Here is a list of some of the programs that the LVBPT offers for its students:</p>
+
+        <h2>Basic Literacy</h2>
+        <h3>Students meet on-on-one or in small groups with a volunteer tutor. Beginners focus on learning the letter sounds and sight words while advanced students work on reading comprehension and writing. The objective is to improve English reading and writing skills so they may achieve goals such as getting a driver's license, obtaining employment or earning a high school diploma or GED certificate.</h3>
+        
+        <h2>English for Speakers of Other Languages (ESOL)</h2>
+        <h3>Students attend weekly classes with a small group of learners and a volunteer tutor to improve their conversational English skills so they can meet communication and life skill needs. While some are illiterate in their native languages, others are highly educated. All are highly motivated and share the mission of succeeding in this country. Beginners focus on learning basic survival words while advanced students work on reading and writing English as well as speaking.</h3>
+        
+        <h2>National External Diploma Program (NEDP)</h2>
+        <h3>Busy adults can earn a high school diploma through independent study where they demonstrate that they have acquired basic academic and life skills at the high school level. Candidates meet with a certified assessor once a week and complete assignments at home. Each week they receive feedback on the work they have completed and must demonstrate competency in 70 areas in order to earn their high school diploma. On average, it takes candidates six months to complete the program. This works well for self-motivated adults who prefer to work independently, rather than in a traditional classroom setting.</h3>
+        
+        <br>
+        <p>In addition, our tutoring services for students also include the areas of: </p>
+        <ul>
+            <li>Speaking and reading English</li>
+            <li>Spelling, Grammar, and English writing</li>
+            <li>Math</li>
+            <li>Basic computer skills through computer assisted instruction</li>
+            <li>Test preparation for GED, Citizenship exam, Driver's License, and work-related certifications</li>
+        </ul>
+        <br>
+    </main>
+    <footer>
+            Copyright &copy; 2023 Literacy Volunteers of Greater Bridgeport<br>
+            Serving the communities of Bridgeport, Easton, Fairfield, Monroe, Southport, Stratford, and Trumbull<br>
+            Located at the Bridgeport Public Library, call us at (203) 576-7012<br>
+    </footer>
+</div>
+</body>
+</html>

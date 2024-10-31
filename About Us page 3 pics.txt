@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>About Us - LVBPT</title>
+    <meta charset="utf-8">
+    <link href="lvbpt.css" rel="stylesheet">
+    <style>
+
+        section {float: top;
+        height: 33%;
+        padding-top: 2em;
+        padding-bottom: 5em;
+        border-bottom: 1px solid #808080;}
+
+        .our-mission {float: right;
+        margin: 0 auto;
+        padding-left: 2em; }
+
+        .location {float: left;
+        margin: 0 auto;
+        padding-right: 2em;}
+
+        .what-we-can-do {float: right;
+        margin: 0 auto;
+        padding-left: 2em;}
+
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <a href="home.html"><img src="Logo.png" alt="LVBPT Logo"></a>
+    </header>
+    <nav>
+        <a href="home.html">Home</a> &nbsp; &nbsp;
+        <a href="about-us.html">About Us</a> &nbsp; &nbsp;
+        <a href="programs.html">Programs</a> &nbsp; &nbsp;
+        <a href="student-registration.html">Student Registration</a> &nbsp; &nbsp;
+        <a href="become-volunteer.html">Become a Volunteer</a> &nbsp; &nbsp;
+        <a href="events.html">Events</a> &nbsp; &nbsp;
+        <a href="tutor-resources.html">Tutor Resources</a> &nbsp; &nbsp;
+        <a href="donate.html">Donate</a> &nbsp; &nbsp;
+        <a href="contact-us.html">Contact Us</a>
+    </nav>
+    <main>
+        <h1>
+            About Us
+        </h1>
+        <section>
+            <div class="our-mission">
+                <img src="OurMission.jpeg" alt="Tutoring Session" width="325" height="200" style="padding: 0.5em">
+            </div>
+            <h2>Our Mission</h2>
+            <h3>Our mission is to actively promote literacy by identifying adult literacy needs in our community and meeting those needs through direct literacy services. We strive to help our clients acquire the literacy skills necessary to be successful in the workplace, participate in the education of their children and lead productive lives.</h3>
+        </section>
+        <section>
+            <div class="location">
+                <img src="TutorAndStudent.jpg" alt="Tutor and Student" width="250" height="200" style="padding: 0.5em">
+            </div>
+            <h2>Location</h2>
+            <h3>Based in the Bridgeport Public Library, Literacy Volunteers of Bridgeport recruits, trains, and guides volunteers to teach other adults to read, write and speak English. Tutors and students work together for a minimum of two hours per week. Learning takes place in small groups or one-on-one. Although our offices are in the Bridgeport Library, tutoring can take place in other locations.</h3>
+        </section>
+        <section>
+            <div class="what-we-can-do">
+                <img src="NEDPGradsAndAssessors.jpg" alt="NEDP Grads and Assessors" width="300" height="200" style="padding: 0.5em">
+            </div>
+            <h2>What We Can Do</h2>
+            <h3>Through a variety of tutoring and general literacy programs, we help students of ages 18 and older better integrate themselves into society and to improve their lives by furthering their learning.</h3>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Copyright &copy; 2023 Literacy Volunteers of Greater Bridgeport<br>
+            Serving the communities of Bridgeport, Easton, Fairfield, Monroe, Southport, Stratford, and Trumbull<br>
+            Located at the Bridgeport Public Library, call us at (203) 576-7012<br>
+        </p>
+    </footer>
+</div>
+</body>
+</html>

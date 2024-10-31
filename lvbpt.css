@@ -1,0 +1,193 @@
+* { box-sizing: border-box; }
+
+/* Changes body formatting */
+    body {font-family: Arial;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    margin: 0em; }
+
+/* Changes gradient background formatting */
+    #myGradient {background-image: linear-gradient(to bottom, #1f4374, #239273);
+    padding-top: 4em;
+    padding-bottom: 4em;}
+
+/* Changes header formatting */
+    header { margin: 2em;
+    text-align: center;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+/* Changes header link formatting */
+    header a{display: flex;
+    align-items: center;
+    justify-content: center;}
+    
+/* Changes header image formatting */
+    header img{display: flex;}
+
+/* Changes h1 text formatting */
+    h1 {text-align: center;
+    color: #7597D1;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: bold;}
+
+/* Changes h2 text formatting */
+    h2 {font-weight: bold;
+    color: #239273; }
+
+/* Changes h3 text formatting */
+    h3 {font-weight: lighter;
+    color: #1f4374;}
+
+/* Changes nav formatting */
+    nav {font-size: 1.2em;
+    background-color: #239273;
+    text-align: center;}
+
+/* Changes nav link formatting */
+    nav a{ color: white;
+    text-decoration: none;}
+    nav a:hover{color: #1f4374;}
+
+    nav ul { list-style-type: none;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;}
+
+    nav li {padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    border-bottom: 1px solid white;}
+
+/* Changes main text formatting */
+    main {padding-left: 2em;
+    padding-right: 2em;}
+
+/* Changes section formatting */
+    section { padding-left: 0.5em;
+    padding-right: 0.5em;}
+
+/* Changes footer  formatting */
+    footer {clear: both;
+	font-size: 0.7em;
+	font-style: italic;
+	text-align: center;
+    padding-top: 1em;}
+
+/* Changes wrapper formatting */
+    #wrapper {background-color: #FFFFFF;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    min-height: 100%;}
+
+/* Changes mobile formatting */
+    #mobile { display: inline; }
+
+/* Changes desktop formatting */
+    #desktop { display: none; }
+
+/* Changes formatting for bottom navigation */
+
+    .footer-nav section {height: 33%;
+        margin-top: 2em;
+        border-top: 1px solid #808080;
+        padding-bottom: 2em;
+        border-bottom: 1px solid #808080;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around; /* Distribute items evenly */
+        flex-wrap: wrap;
+    }
+      
+    .footer-nav ul li {
+        flex-grow: 1; /* Equal distribution of space */
+        text-align: center;
+    }
+      
+    .footer-nav ul li h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+      
+    .footer-nav ul li ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+      
+    .footer-nav ul li ul li {
+        margin-bottom: 5px;
+    }
+      
+    .footer-nav ul li ul li a {
+        text-decoration: none;
+        color: #c5bebe;
+        display: block;
+    }
+      
+    .footer-nav ul li ul li a:hover {
+        color: navy;
+    }
+
+/* Changes formatting when screen is 600-1024px wide */
+@media (min-width: 600px) {
+
+    header {border: 2.75px solid #239273;
+    border-radius: 25px;}
+
+    h1 {font-size: 2em;}
+
+    section {padding-left: 2em;
+    padding-right: 2em;}
+
+    footer {font-size: 0.9em;}
+
+    #flow {display: flex;
+    flex-direction: row;}
+
+    #wrapper {padding-left: 2.5em;
+    padding-right: 2.5em;}
+    
+}
+
+@media (max-width: 600px) {
+    .footer-nav ul {
+        flex-direction: column;
+    }
+}
+
+/* Changes formatting when screen is at least 1024px wide*/
+@media (min-width: 1024px) {
+
+    nav ul {display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 100%;}
+    
+    nav li {width: auto;
+    border-bottom: none;}
+
+    #wrapper {padding-left: 3.5em;
+    padding-right: 3.5em;}
+}

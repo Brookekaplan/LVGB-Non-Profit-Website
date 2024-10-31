@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Home - LVBPT</title>
+    <meta charset="utf-8">
+    <link href="lvbpt.css" rel="stylesheet">
+    <style>
+
+        #lvbptHome { height: 300px;
+        background-image: url(lvbptHome.jpg);
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%; }
+
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <a href="home.html"><img src="Logo.png" alt="LVBPT Logo"></a>
+    </header>
+    <nav>
+        <a href="home.html">Home</a> &nbsp; &nbsp;
+        <a href="about-us.html">About Us</a> &nbsp; &nbsp;
+        <a href="programs.html">Programs</a> &nbsp; &nbsp;
+        <a href="student-registration.html">Student Registration</a> &nbsp; &nbsp;
+        <a href="become-volunteer.html">Become a Volunteer</a> &nbsp; &nbsp;
+        <a href="events.html">Events</a> &nbsp; &nbsp;
+        <a href="tutor-resources.html">Tutor Resources</a> &nbsp; &nbsp;
+        <a href="donate.html">Donate</a> &nbsp; &nbsp;
+        <a href="contact-us.html">Contact Us</a>
+    </nav>
+    <main>
+        <h1>
+            A Program of the Friends of Bridgeport Public Library
+        </h1>
+        <h3>
+            <p>Literacy Volunteers of Greater Bridgeport works to actively promote literacy by identifying adult literacy needs in our community and meeting those needs through direct literacy services. We strive to help our clients acquire the literacy skills necessary to be successful in the workplace, participate in the education of their children and lead productive lives.</p>
+            <p>Literacy Volunteers of Bridgeport recruits, trains and guides volunteers to teach other adults to read, write, and speak English. Tutors and students work together for a minimum of two hours per week. Learning takes place in small groups or one-on-one.</p>
+            <p>We have approximately 250 students from the greater Bridgeport area who register for our programs each year. Our students are adults, ages 18 and up, who come from a variety of countries and backgrounds. Some were well educated in their native countries and others have had no access to education. Those who were born here may have dropped out of school at a young age, although some have completed high school despite their limited reading and writing skills. All are determined to improve their lives by furthering their learning!</p>
+            <p>Each student takes an initial assessment when they register for one of our programs. At the end of the year our students are post-tested in order to objectively measure their progress. In addition to increased scores, we see real-life gains such as passing the citizenship exam or driver's license test, obtaining employment or promotions, earning a high school diploma or certificate/license related to their work.</p>
+        </h3>
+        <div id="lvbptHome"></div>
+    </main>
+    <footer>
+        <p>
+            Copyright &copy; 2023 Literacy Volunteers of Greater Bridgeport<br>
+            Serving the communities of Bridgeport, Easton, Fairfield, Monroe, Southport, Stratford, and Trumbull<br>
+            Located at the Bridgeport Public Library, call us at (203) 576-7012<br>
+        </p>
+    </footer>
+</div>
+</body>
+</html>
